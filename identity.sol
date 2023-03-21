@@ -17,6 +17,10 @@ contract identity
     function getAge() view public returns(uint){
         return age;
     }
+    function setAge() public
+    {
+    age=age+1;
+    }
 
 
 }
