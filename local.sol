@@ -9,8 +9,12 @@ contract local
     function getter() public view returns(uint){                                              //getter is like print
         return age;
     }
-    function setter() public{
+   *** function setter() public{
         age=age+2;
+    }***
+    function setter(uint newage) public
+    {
+    age=newage;
     }
 
 }
