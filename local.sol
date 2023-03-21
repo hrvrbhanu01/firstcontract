@@ -6,7 +6,7 @@ contract local
 {
     uint age=23;
 
-    function getter() public view returns(uint){
+    function getter() public view returns(uint){                                              //getter is like print
         return age;
     }
     function setter() public{
