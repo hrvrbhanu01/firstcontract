@@ -1,2 +1,2 @@
 # firstcontract
-Making my first smart contract using Solidity programming language
+Making my few first smart contracts using Solidity programming language
